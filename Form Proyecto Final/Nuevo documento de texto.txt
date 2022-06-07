@@ -1,0 +1,11 @@
+<form th:action="@{/espacio-trabajo/crear}" method="post">
+                                <input type="hidden" name="idUsuario" th:value="${session.usuariosession.id}">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Nombre</label>
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" name="nombre">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    <button type="submit" class="btn btn-primary">Crear Espacio</button>
+                                </div>
+                            </form>-->
